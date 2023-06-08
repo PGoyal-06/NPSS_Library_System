@@ -1,0 +1,45 @@
+.form1 {
+    border: 10px solid black;
+    border-radius: 15px 50px 30px;
+    padding: 15px;
+    height: 235px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.button1{
+    background-color: #253943;
+    border-width: thick;
+    border-color: #daa972;
+    color: #fff5d6;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    right: 550px;
+    bottom: 170px;
+  }
+  
+  .button1:hover {opacity: 1}
+
+  .password{
+    border-color: #2db189; 
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+  }
+
+  .username{
+    border-color: #2db189;
+    border-width: thick;
+    text-align:center;
+    background-color: #253943;
+    color: #fff5d6;
+  }

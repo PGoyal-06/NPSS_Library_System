@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <!-- referring to the Javascript file -->
+    <script src="JavaScript/Student_Search.js"></script>
+    <!-- referrring to the css file -->
+    <link rel="stylesheet" type="text/css" href="./CSS/Student_Search.css"/>
+        <body style="background-color: #253943;">
+            <form>
+            <br><br><br>
+            <h1 align="center" style="font-size: 30px; color: #fff5d6;">ENTER YOUR SEARCH DETAILS</h1>
+            <br>
+            <!-- creating textboxes for the student to enter details to search for the desired book -->
+            <div class="form1">
+            <p style="font-size: large; font-weight: bold; color: #fff5d6;" align="center">
+                <input placeholder="Book Number" name="bookNumS" class="bookNum"/>
+            </p>
+            
+            <p style="font-size: large; font-weight: bold; color: #fff5d6;" align="center">
+                <input placeholder="Author" name="authorS" class="author"/>
+            </p>
+            
+            <p style="font-size: large; font-weight: bold; color: #fff5d6;" align="center">
+                <input placeholder="Title" name="titleS" class="title"/>
+            </p>
+            <!-- making a dropdown menu for publication date -->
+            <center>
+            <label for="date" class="label">Publication Date:
+                <select name="pubDateS" id="date">
+                    <option value="">Select an Option</option>
+                    <option>Before 2000</option>
+                    <option>2001-2005</option>
+                    <option>2006-2010</option>
+                    <option>2011-2015</option>
+                    <option>2016-2020</option>
+                    <option>2021-2023</option>
+                </select>
+            </label>
+            </center>
+            <br><br>
+            <!-- creating checkboxes for the student to select book genre -->
+            <center>
+            <label for="Book Type" class="label2">Book Type:
+                <input id="fiction" type="checkbox" name="fictionS" value="fiction"/>Fiction
+                <input id="non fiction" type="checkbox" name="nonFictionS" value="non fiction"/>Non Fiction
+                <input id="GN" type="checkbox" name="gnS" value="GN"/>Graphic Novel
+            </label>
+            </center>
+            </div>
+            <!-- creating a submit button which takes the student to the results page by calling JS function using the onclick property -->
+            <p align=center>
+                <button type="button" class="button5 button5:hover" onclick="getStudentSearchData(this.form); location.href='Student_Search_Results.html'">Submit</button>
+            </p>
+            <button class="button4 button4:hover" onclick="location.href = 'Home.html';" type="button">Home</button>
+            <!-- adding images to make the page look nicer -->
+            <img src="./images/npss.png" style="height: 90px; position: absolute;"/>
+            <img src="./images/search_books.webp" style="height: 90px; position: absolute; right: 100px;"/>
+            </form>
+        </body>
+</html>

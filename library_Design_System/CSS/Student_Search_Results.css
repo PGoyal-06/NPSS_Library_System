@@ -1,0 +1,81 @@
+.input1{
+    border-color: #2db189; 
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+}
+
+.input2{
+    border-color: #fff5d6; 
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+}
+
+.input3{
+    border-color: #fff5d6;
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+}
+
+.button1{
+    border-color: #f9705a;
+    border-width: thick;
+    text-align: center;
+    background-color: #253943;
+    color: #fff5d6;
+    font-size: 20px;
+    width: 10%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    right: 600px;
+    bottom: 30px;
+}
+
+.button1:hover{
+    background-color: #f9705a;
+  color: white;
+  transform: scale(1.1);
+}
+
+text{
+    position: absolute;
+    left: 100px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: #fff5d6;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Optional styling for the table container */
+#resultsTable {
+    width: 80%;
+    margin: 0 auto;
+}
+
+   .scrollable-table {
+       overflow: auto;
+       max-height: 400px;
+   }

@@ -1,0 +1,52 @@
+.form1 {
+    border: 10px solid black;
+    border-radius: 15px 50px 30px 5px;
+    padding: 15px;
+    height: 235px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.button1{
+    border-color: #f9705a;
+    border-width: thick;
+    text-align: center;
+    background-color: #253943;
+    color: #fff5d6;
+    font-size: 20px;
+    width: 10%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    right: 670px;
+    bottom: 210px;
+}
+
+.button1:hover{
+    background-color: #f9705a;
+  color: white;
+  transform: scale(1.1);
+}
+
+.button2 {
+    border-color: #daa972;
+    border-width: thick;
+    text-align: center;
+    background-color: #253943;
+    color: #fff5d6;
+    font-size: 20px;
+    width: 10%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    right: 480px;
+    bottom: 210px;
+}
+
+.button2:hover {
+    background-color: #daa972;
+    color: white;
+    transform: scale(1.1);
+}

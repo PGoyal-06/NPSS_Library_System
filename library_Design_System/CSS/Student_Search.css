@@ -1,0 +1,87 @@
+.form1 {
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    height: 245px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.button4{
+    border-color: #f9705a;
+    border-width: thick;
+    text-align: center;
+    background-color: #253943;
+    color: #fff5d6;
+    font-size: 22px;
+    width: 10%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    right: 700px;
+    bottom: 100px;
+}
+
+.button4:hover{
+    background-color: #f9705a;
+  color: white;
+  transform: scale(1.1);
+}
+
+.button5{
+    background-color: #253943;
+    border-width: thick;
+    border-color: #daa972;
+    color: #fff5d6;
+    padding: 7px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 100px;
+  }
+  
+  .button5:hover {opacity: 1}
+
+  .bookNum{
+    border-color: #0e67a3;
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+  }
+
+  .author{
+    border-color: #0e67a3; 
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+  }
+
+  .title{
+    border-color: #0e67a3; 
+    border-width: thick; 
+    text-align:center; 
+    background-color: #253943; 
+    color: #fff5d6;
+  }
+
+  .label{
+    font-size: large; 
+    font-weight: bold; 
+    color: #fff5d6; 
+    font-size: 20px;
+  }
+
+  .label2{
+    font-size: large; 
+    font-weight: bold; 
+    color: #fff5d6;
+  }
